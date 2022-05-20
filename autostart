@@ -29,8 +29,6 @@ Alt=Mod1   # Use alt as another modifier
 # terminals
 TERMINAL="$HOME/.config/herbstluftwm/bin/herbterm.sh"
 hc keybind $Mod-Return spawn "$TERMINAL"
-hc keybind $Mod-Shift-Return spawn "$TERMINAL" -f
-hc keybind $Mod-t spawn "$TERMINAL" -s
 
 # applications
 FILE_MANAGER='thunar'
